@@ -172,7 +172,7 @@
     <string name="backup_allowlist">許可リストをバックアップ</string>
     <string name="restore_allowlist">許可リストを復元</string>
     <string name="settings_custom_background">アプリの背景を変更</string>
-    <string name="settings_custom_background_summary">背景にする画像を選択してください</string>
+    <string name="settings_custom_background_summary">背景にする画像を選択してください。</string>
     <string name="settings_card_alpha">ナビゲーションバーの透過</string>
     <string name="settings_restore_default">デフォルトに復元</string>
     <string name="home_android_version">Android のバージョン</string>
@@ -192,7 +192,7 @@
     <string name="hide_kernel_kernelsu_version">カーネルのバージョンを非表示</string>
     <string name="hide_kernel_kernelsu_version_summary">カーネルのバージョンを非表示にします。</string>
     <string name="hide_other_info">その他の情報を非表示</string>
-    <string name="hide_other_info_summary">ナビゲーションバーページでスーパーユーザー、モジュール、KPM モジュールの数に関する赤いドットを非表示にします。</string>
+    <string name="hide_other_info_summary">ナビゲーションバーページでスーパーユーザー、モジュール、KPM モジュールの数に関連するドットを非表示にします。</string>
     <string name="hide_susfs_status">SuSFS ステータスを非表示</string>
     <string name="hide_susfs_status_summary">ホームページ上の SuSFS ステータス情報を非表示にします。</string>
     <string name="hide_link_card">リンクカードのステータスを非表示</string>
@@ -217,7 +217,7 @@
     <string name="flash_option">フラッシュオプション</string>
     <string name="flash_option_tip">フラッシュするファイルを選択</string>
     <string name="horizon_kernel">AnyKernel3 をインストール</string>
-    <string name="horizon_kernel_summary">AnyKernel3 カーネルファイルをフラッシュします</string>
+    <string name="horizon_kernel_summary">AnyKernel3 カーネルファイルをフラッシュします。</string>
     <string name="root_required">root 権限が必要です</string>
     <string name="copy_failed">ファイルのコピーに失敗しました</string>
     <string name="reboot_complete_title">スクラブが完了しました</string>
@@ -480,6 +480,7 @@
     <string name="susfs_reset_mounts_message">すべての SUS マウントの構成が消去されます。続行してもよろしいですか？</string>
     <string name="susfs_reset_umounts_title">リセットしてアンマウントを試す</string>
     <string name="susfs_reset_umounts_message">すべてのアンマウント構成がリセットされます。続行してもよろしいですか？</string>
+    <string name="susfs_reset_path_title">パスの設定をリセット</string>
     <!-- SuSFS Path Settings -->
     <string name="susfs_path_settings">パスの設定</string>
     <string name="susfs_android_data_path_label">Android データパス</string>
@@ -524,4 +525,25 @@
     <string name="show_module_update_json_summary">モジュールの詳細に更新用 JSON の URL を表示します。</string>
     <string name="show_more_module_info">モジュール情報の詳細を表示</string>
     <string name="show_more_module_info_summary">更新用 JSON の URL など追加の情報を表示します。</string>
+    <string name="susfs_execution_location_label">実行先</string>
+    <string name="susfs_current_execution_location">現在の実行先: %s</string>
+    <string name="susfs_execution_location_service">サービス</string>
+    <string name="susfs_execution_location_post_fs_data">Post-FS-Data</string>
+    <string name="susfs_execution_location_service_description">システムサービスの開始後に実行</string>
+    <string name="susfs_execution_location_post_fs_data_description">ファイルシステムのマウント後にシステムが完全に起動する前に実行をすることで、ブートループが発生する可能性があります。</string>
+    <string name="susfs_slot_info_title">スロット情報</string>
+    <string name="susfs_slot_info_description">現在のブートスロット情報の表示と値のコピーをします。</string>
+    <string name="susfs_current_active_slot">現在のアクティブスロット: %s</string>
+    <string name="susfs_slot_name">スロット: %s</string>
+    <string name="susfs_slot_uname">Uname: %s</string>
+    <string name="susfs_slot_build_time">ビルド日時: %s</string>
+    <string name="susfs_slot_current_badge">現在</string>
+    <string name="susfs_slot_use_uname">Uname を使用する</string>
+    <string name="susfs_slot_use_build_time">ビルド日時を使用する</string>
+    <string name="susfs_slot_info_unavailable">スロット情報を取得できません</string>
+    <string name="susfs_slot_info_loading">スロット情報を読み込み中…</string>
+    <!-- SuSFS 自启动相关字符串 -->
+    <string name="susfs_autostart_enabled_success">SuSFS 自動起動モジュールが有効、モジュールのパス: %s</string>
+    <string name="susfs_autostart_disabled_success">SuSFS 自動起動モジュールが無効</string>
+    <!-- SuSFS Kstat相关字符串 -->
 </resources>
